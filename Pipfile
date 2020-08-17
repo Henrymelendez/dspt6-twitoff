@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+jupyter = "*"
+matplotlib = "*"
+
+[packages]
+pandas = "*"
+numpy = "*"
+flask = "*"
+flask-sqlalchemy = "*"
+jinja2 = "*"
+scikit-learn = "*"
+python-dotenv = "*"
+python-decouple = "*"
+requests = "*"
+basilica = "*"
+tweepy = "*"
+redis = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
+twitter-scraper = "*"
+
+[requires]
+python_version = "3.8"
